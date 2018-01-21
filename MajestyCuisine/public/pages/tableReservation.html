@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Majestys">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="javascripts/angular/angular.js"></script>
+    <script src="javascripts/angular-resource/angular-resource.js"></script>
+    <script src="javascripts/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="javascripts/index.js"></script>
+</head>
+<body>
+    <div align="center">
+        <h2>Dine-In</h2>
+        <form ng-controller="tableReservation" ng-submit="checkAvailabilityAndReserve()">
+            <table>
+                <tr>
+                    <td><label>People: </label></td>
+                    <td><select name="People" ng-model="People">
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                            <option value="8">8</option>
+                        </select></td>
+
+                    <td><label>Date: </label></td>
+                    <td><input type="date" ng-model="Date"></td>
+
+                    <td><label>Time: </label></td>
+                    <td><select name="People" ng-model="Time">
+                            <option value="12.00 PM">12.00 PM</option>
+                            <option value="12.30 PM">12.30 PM</option>
+                            <option value="1.00 PM">1.00 PM</option>
+                            <option value="1.30 PM">1.30 PM</option>
+                            <option value="2.00 PM">2.00 PM</option>
+                            <option value="2.30 PM">2.30 PM</option>
+                            <option value="7.00 PM">7.00 PM</option>
+                            <option value="7.30 PM">7.30 PM</option>
+                            <option value="8.00 PM">8.00 PM</option>
+                            <option value="8.30 PM">8.30 PM</option>
+                            <option value="9.00 PM">9.00 PM</option>
+                            <option value="9.30 PM">9.30 PM</option>
+                        </select></td>
+
+                    <td><input type="submit" value="Reserve Table" /></td>
+                </tr>
+            </table>
+            <h2 style="color:floralwhite">{{message}}</h2>
+        </form>
+    </div>
+</body>
+</html>

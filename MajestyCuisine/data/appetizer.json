@@ -1,0 +1,58 @@
+﻿[
+  {
+    "FoodId": "01",
+    "Name": "Wonton",
+    "Description": "wonton is one of the favourite dish from the Majesty's wichi.",
+    "ImageUrl": "images/Appetizer/wonton.jpg",
+    "Price": 5.6
+  },
+  {
+    "FoodId": "02",
+    "Name": "Broccoli Potato Cake",
+    "Description": "Spicy with a slight taste of garlic",
+    "ImageUrl": "images/Appetizer/broccoli-potato-cake.jpg",
+    "Price": 7.65
+  },
+  {
+    "FoodId": "03",
+    "Name": "Chinese Bhel",
+    "Description": "Blend of spicy sauce and crunchy noodles",
+    "ImageUrl": "images/Appetizer/chinese_bhel.jpg",
+    "Price": 6.00
+  },
+  {
+    "FoodId": "04",
+    "Name": "Mini Shrimp Rolls",
+    "Description": "Wrapped in bun two rolls in a plate",
+    "ImageUrl": "images/Appetizer/mini-shrimp-rolls.jpg",
+    "Price": 3.75
+  },
+  {
+    "FoodId": "05",
+    "Name": "Red Spoon",
+    "Description": "Start with something sweet",
+    "ImageUrl": "images/Appetizer/redspoon.jpg",
+    "Price": 5.00
+  },
+  {
+    "FoodId": "06",
+    "Name": "Crab Rangoon",
+    "Description": "Snack for your start",
+    "ImageUrl": "images/Appetizer/Crab_Rangoon.jpg",
+    "Price": 6.00
+  },
+  {
+    "FoodId": "07",
+    "Name": "Deep Fried Durian",
+    "Description": "Don't ignore without trying",
+    "ImageUrl": "images/Appetizer/deepFriedDurian.jpg",
+    "Price": 5.00
+  },
+    {
+    "FoodId": "08",
+    "Name": "Pork Dumplings",
+    "Description": "Steamed pork with a tangy sauce",
+    "ImageUrl": "images/Appetizer/Pork_dumplings.jpg",
+    "Price":  5.75
+  }
+]

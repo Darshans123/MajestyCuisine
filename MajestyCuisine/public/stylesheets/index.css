@@ -1,0 +1,174 @@
+﻿body {
+    background-image: url('../images/kontaktseite.jpg');
+    margin: 30px 30px 30px 30px;
+    font-size: 16px;
+    color: white;
+}
+
+h2 {
+    color: maroon;
+}
+h3{
+    float:left;
+    padding-left:10px;
+}
+
+header h1 {
+    font-family: 'Californian FB';
+    color: brown;
+    font-style: italic;
+    font-size: 75px;
+    text-shadow: 4px 3px white;
+}
+
+header form {
+    float: right;
+    background-color: rgba(188,143,143,0.5);
+    border: 5px solid rosybrown;
+    border-radius: 5%;
+}
+
+.container {
+    overflow: hidden;
+    background-color: brown;
+    font-family: Arial;
+    border-radius: 10px;
+    padding: 0px;
+    margin-top:50px;
+}
+
+.container a {
+        float: left;
+        font-size: 16px;
+        color: floralwhite;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: floralwhite;
+        padding: 14px 16px;
+        background-color: brown;
+    }
+
+.container a:hover, .dropdown:hover .dropbtn {
+        background-color: rosybrown;
+        color: floralwhite;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rosybrown;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+        float: none;
+        color: brown;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+.dropdown-content a:hover {
+            background-color: brown;
+            color: floralwhite;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-review {
+    background-color: antiquewhite;
+    color: brown;
+    text-align:center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.menu-table {
+    border: 2px solid;
+    background-color: antiquewhite;
+    color: brown;
+    text-align:center;
+}
+
+.menu-tr {
+    background-color: maroon;    
+    color: white;    
+    display: compact;
+}
+
+
+.menu-description {
+    display: table-cell;    
+    width: 250px;
+    text-align:center;
+}
+
+main {
+    clear: both;
+    background-color: rgba(188,143,143,0.5);
+    border: 5px solid rosybrown;
+    margin: 10px 0px 10px 0px;
+    border-radius: 3%;
+}
+
+footer .aboutus {
+    background-color: rgba(188,143,143,0.5);
+    margin: auto;
+    float: left;
+    height: 200px;
+    width: 250px;
+    border: 5px solid rosybrown;
+    border-radius: 10%;
+}
+
+footer .aboutus p {
+        text-align: justify;
+        padding: 5px 10px 10px 10px;
+    }
+
+footer .hours {
+    background-color: rgba(188,143,143,0.5);
+    float: right;
+    height: 200px;
+    width: 250px;
+    border: 5px solid rosybrown;
+    border-radius: 10%;
+    margin: auto;
+}
+
+footer .contactus {
+    background-color: rgba(188,143,143,0.5);
+    height: 200px;
+    width: 250px;
+    border: 5px solid rosybrown;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.newuser {
+    font-size: 20px;
+    background-color: rgba(188,143,143,0.5);
+    border: 5px solid brown;
+    border-radius: 5%;
+}
+.cart {
+    margin-right: 10px;
+    float:right;
+}

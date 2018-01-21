@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Cart</title>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../javascripts/angular/angular.js"></script>
+</head>
+<body>
+    <form ng-controller="cart" >
+        <table class="menu-table" id="cart" align="center">
+            <tr class="menu-tr">
+                <th colspan="2">Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total Price</th>
+            </tr>
+            <tr ng-repeat="item in items">
+                <td><img src="{{item.imageUrl}}" height="100" width="100" hspace="20" vspace="20" /></td>
+                <td>{{item.foodName}}<input type="hidden" ng-model="item.foodId" /></td>
+                <td>{{item.price}}</td>
+                <td>{{item.quantity}}</td>
+                <td>{{item.totalPrice}}</td>
+                <td><input type="submit" ng-click="removeItem(item.foodId)" value="Remove Item"></td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <h3>{{message}}</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <input type="submit" value="Checkout" ng-click="checkout(items)" />
+                </td>
+            </tr>
+            
+            
+        </table>
+    </form>
+
+</body>
+</html>

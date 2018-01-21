@@ -1,0 +1,37 @@
+﻿[
+  {
+    "FoodId": "D1",
+    "Name": "Strawberry Slush",
+    "Description": "Strawberry Slush is best dish",
+    "ImageUrl": "images/Drinks/strawberryslush.jpg",
+    "Price": 10.00
+  },
+  {
+    "FoodId": "D2",
+    "Name": "Bombay Blue",
+    "Description": "Bombay Blue is best dish",
+    "ImageUrl": "images/Drinks/bombay-blue.jpg",
+    "Price": 10.00
+  },
+  {
+    "FoodId": "D3",
+    "Name": "Kiwi Juice",
+    "Description": "Chinese Bhel is best dish",
+    "ImageUrl": "images/Drinks/kiwijuice.jpg",
+    "Price": 10.00
+  },
+  {
+    "FoodId": "D4",
+    "Name": "Mojito",
+    "Description": "Mojito is best dish",
+    "ImageUrl": "images/Drinks/moghito.jpg",
+    "Price": 10.00
+  },
+  {
+    "FoodId": "D5",
+    "Name": "Cloud Nine",
+    "Description": "Cloud Nine is best dish",
+    "ImageUrl": "images/Drinks/cloudnine.jpg",
+    "Price":  10.00
+  }
+]

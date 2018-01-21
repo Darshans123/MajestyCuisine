@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Majestys">
+<head>
+    <meta charset="utf-8" />
+    <title>Reviews</title>
+</head>
+<body>
+    <form ng-controller="reviews">
+        <div class="menu-review">
+            <div ng-repeat="review in reviews" align="center">
+               <p style="width: 200px;word-wrap:break-word;padding:10px;">{{review.review}}</p> <b style="color:maroon;"> -{{review.name}}</b>
+            </div>       
+        </div>
+        <table class="menu-table" align="center" ng-show="currentUser">
+            <tr>
+                <td>Your Email: </td>
+                <td>{{email}}</td>
+            </tr>
+            <tr>
+                <td>Review Comments: </td>
+                <td><textarea ng-model="reviewComments"></textarea></td>
+            </tr>
+            <tr><td colspan="2"><input type="submit" value="Submit Review" ng-click="submitReview(reviewComments)"></td></tr>
+        </table>
+    </form>
+</body>
+</html>

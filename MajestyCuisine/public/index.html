@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Majestys">
+<head>
+    <meta charset="utf-8" />
+    <title>Majesty's Cuisine</title>
+    <link href="stylesheets/index.css" rel="stylesheet" />
+    <script src="javascripts/angular/angular.js"></script>
+    <script src="javascripts/angular-resource/angular-resource.js"></script>
+    <script src="javascripts/angular-ui-router/release/angular-ui-router.js"></script>    
+    <script src="javascripts/index.js"></script>    
+</head>
+<body>
+    <header>
+        <form ng-controller="LoginUsers" ng-submit="save()" id="LoginUser">
+            <table>
+                <tr>
+                    <td><label>UserName : </label></td>
+                    <td><input placeholder="eg.abc@gmail.com" type="text" ng-model="emailid" required/></td>
+                </tr>
+                <tr>
+                    <td><label>Password : </label></td>
+                    <td><input type="password" ng-model="password" required/></td>        
+                </tr>
+                <tr>
+                   <!--<td><input type="reset" value="Clear" /></td>-->
+                   <td><input type="submit" value="LogIn" /> </td>                    
+                </tr>   
+               <tr><td><a ui-sref-active="active" ui-sref="Newuser" style="color:white; font-size:20px;">New User ?</a></td></tr>
+             
+            </table> 
+            <div style="color:yellow;" >{{message}}</div>
+           
+        </form>
+        
+        <h1>Majesty's Cuisine</h1>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a ui-sref-active="active" ui-sref="Home">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a ui-sref-active="active" ui-sref="Appetizer">Appetizer</a>
+                    <a ui-sref-active="active" ui-sref="Entree">Entree</a>
+                    <a ui-sref-active="active" ui-sref="Drinks">Drinks</a>
+                    <a ui-sref-active="active" ui-sref="Dessert">Dessert</a>
+                </div>
+            </div>
+            <a ui-sref-active="active" ui-sref="Gallery">Gallery</a>
+            <a ui-sref-active="active" ui-sref="ReserveTable">Reserve Table</a>
+            <a ui-sref-active="active" ui-sref="Reviews">Reviews</a>
+            <a ui-sref-active="active" ui-sref="Cart" style="float:right;"><img src="images/cart2.png" height="30" width="30" /></a>
+            <form ng-controller="logout"  ng-submit="logout()" id="LogoutUser" style="float:right">
+                <table>
+                    <tr><td><input type="submit" value="Logout" /></td></tr>
+                    <tr><td>{{message}}</td></tr>
+                </table>
+            </form>
+       </div>
+       
+    </nav>
+    <main ui-view="main">
+
+    </main>
+
+    <footer align="center">
+        
+        <div class="aboutus">
+            <h2><u>About US</u></h2>
+            <p>
+                Majesty’s as is the brand name
+                is a new innovation in the food
+                industry pioneering the establishment
+                of Chinese Take Away food
+                outlets to serve international
+                community at affordable prices.
+            </p>
+        </div>   
+        <div class="hours">
+            <h2><u>Hours & Location</u></h2>
+            <p>
+                Monday: 8.30am – 9.00pm</br>
+                Tuesday: 8.30am – 9.00pm</br>
+                Wednesday: 8.30am – 9.00pm</br>
+                Thursday: 8.30am – 9.00pm</br>
+                Friday: 8.30am – 9.00pm</br>
+                Saturday: 8.30am – 11.00pm</br>
+                Sunday: 8.30am – 11.00pm</br>
+            </p>
+        </div>
+        <div class="contactus">
+            <h2><u>Contact US</u></h2>
+            <p>EmailID : dks345@gmail.com</p>
+            <P>Phone No: 346-888-9375</P>
+        </div>
+        
+        
+    </footer>
+</body>
+</html>

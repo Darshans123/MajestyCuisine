@@ -1,0 +1,51 @@
+﻿[
+  {
+    "FoodId": "DS1",
+    "Name": "Fruit Bowl",
+    "Description": "Contains all fruits..seasonal are exceptional",
+    "ImageUrl": "images/Dessert/FruitSalad.jpg",
+    "Price": 6.25
+  },
+  {
+    "FoodId": "DS2",
+    "Name": "Brownie",
+    "Description": "Hot chocolate brownie..a must try",
+    "ImageUrl": "images/Dessert/Brownie.jpg",
+    "Price": 7.00
+  },
+  {
+    "FoodId": "DS3",
+    "Name": "Mix Fruit Pie",
+    "Description": "Delicious for your mouth",
+    "ImageUrl": "images/Dessert/MixFruitPie.jpg",
+    "Price": 3.75
+  },
+  {
+    "FoodId": "DS4",
+    "Name": "Pastry",
+    "Description": "Completes your day",
+    "ImageUrl": "images/Dessert/pastery.jpg",
+    "Price": 4.00
+  },
+  {
+    "FoodId": "DS5",
+    "Name": "Vanila Strawberry Custard",
+    "Description": "Custard that just metlts in your mouth",
+    "ImageUrl": "images/Dessert/VanilaStrawberryCusturd.jpg",
+    "Price": 7.25
+  },
+  {
+    "FoodId": "DS6",
+    "Name": "Gajar Halwa",
+    "Description": "Royal Indian sweet",
+    "ImageUrl": "images/Dessert/gajarHalwa.jpg",
+    "Price": 9.00
+  },
+  {
+    "FoodId": "DS7",
+    "Name": "Chinese New Year Cake",
+    "Description": "Sweetness to its best",
+    "ImageUrl": "images/Dessert/chinese_new_year_cake.jpg",
+    "Price": 8.00
+  }
+]

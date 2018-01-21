@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Majestys">
+<head>
+    <meta charset="utf-8" />
+    <title>Drinks</title>
+    <script src="javascripts/angular/angular.js"></script>
+    <script src="javascripts/angular-resource/angular-resource.js"></script>
+    <script src="javascripts/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="javascripts/index.js"></script>
+</head>
+<body>
+    <form ng-controller="drinkItems">
+        <table class="menu-table" align="center">
+            <tr class="menu-tr">
+                <th>Image</th>
+                <th>Drink Name</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+            <tr ng-repeat="drink in drinks">
+                <td>
+                    <a><img src="{{drink.ImageUrl}}" width="200" height="150" /></a>
+                <td>
+                    <h3>
+                        {{drink.Name}}
+                    </h3>
+                </td>
+                <td>
+                    {{drink.Description}}
+                </td>
+                <td>
+                    <input type="number" ng-model="quantity" min="1" max="50" style="height:20px;width:25px;" />
+                </td>
+                <td>
+                    <h4>${{drink.Price}}</h4>
+                </td>
+                <td>
+                    <input type="submit" ng-click="addToCart(drink,quantity)" value="Add to Cart" />
+                </td>
+            </tr>
+            <h2 style="text-align:center; color:yellow">{{message}}</h2>
+        </table>
+    </form>
+
+</body>
+</html>

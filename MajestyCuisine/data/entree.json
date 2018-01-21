@@ -1,0 +1,72 @@
+﻿[
+  {
+    "FoodId": "E1",
+    "Name": "Mutton Roganjosh with Kashmiri Pulao",
+    "Description": "Blend of sweet pulao and spicy roganjosh",
+    "ImageUrl": "images/Entree/muttonRoganJosh.jpg",
+    "Price": 16.50
+  },
+  {
+    "FoodId": "E2",
+    "Name": "Chilli Chicken",
+    "Description": "Spicy chicken served with Hunan noodles",
+    "ImageUrl": "images/Entree/chilliChicken.jpg",
+    "Price": 11.00
+  },
+  {
+    "FoodId": "E3",
+    "Name": "Orange Chicken",
+    "Description": "Sweet and spicy chicken served with schezwan rice",
+    "ImageUrl": "images/Entree/orangeChicken.jpg",
+    "Price": 10.00
+  },
+  {
+    "FoodId": "E4",
+    "Name": "Pork Masala - Indian style",
+    "Description": "Spicy pork served with steamed rice",
+    "ImageUrl": "images/Entree/porkIndianStyle.jpg",
+    "Price": 12.00
+  },
+  {
+    "FoodId": "E5",
+    "Name": "Paneer tikka masala",
+    "Description": "Spicy curry served with hot bread",
+    "ImageUrl": "images/Entree/PaneerTikka.jpg",
+    "Price": 12.00
+  },
+  {
+    "FoodId": "E6",
+    "Name": "Mutton Keema",
+    "Description": "Served with hot bread",
+    "ImageUrl": "images/Entree/muttonKeema.jpg",
+    "Price": 12.00
+  },
+  {
+    "FoodId": "E7",
+    "Name": "Schezwan Pork",
+    "Description": "Served with hakka noodles",
+    "ImageUrl": "images/Entree/schezwanPork.jpg",
+    "Price": 11.25
+  },
+  {
+    "FoodId": "E8",
+    "Name": "Prawn Masala",
+    "Description": "Served with steamed rice",
+    "ImageUrl": "images/Entree/prawnMasala.jpg",
+    "Price": 12.00
+  },
+   {
+    "FoodId": "E9",
+    "Name": "Chi-Po Platter",
+    "Description": "Chicken, Pork, Bread, Cabbage salad",
+    "ImageUrl": "images/Entree/Platter_CP.jpg",
+    "Price": 15.00
+  },
+  {
+    "FoodId": "E10",
+    "Name": "Seafood Platter",
+    "Description": "Fish, Shells, Rice, Salad",
+    "ImageUrl": "images/Entree/SeafoodPlatter.jpg",
+    "Price":  14.25
+  }
+]

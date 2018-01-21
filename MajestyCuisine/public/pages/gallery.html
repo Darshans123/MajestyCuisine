@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Majestys">
+<head>
+    <meta charset="utf-8" />
+    <title>Gallery</title>
+</head>
+<body>
+    <form ng-controller="gallery">
+        <table class="menu-table" align="center">
+            <tr ng-repeat="gallery in galleries">
+                <td>
+                    <img src="{{gallery.ImageUrl}}" width="400" margin="20px" height="300" />
+                    <img src="{{gallery.ImageUrl}}" width="400" height="300" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

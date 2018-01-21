@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Majestys">
+<head>
+    <meta charset="utf-8" />
+    <title>New User</title>
+</head>
+<body>
+    <form ng-controller="newuser" ng-submit="save()">
+        <table class="newuser" align="center">
+            <tr>
+                <td><label>FirstName: </label></td>
+                <td><input placeholder="First Name" type="text" ng-model="firstname" required/></td>
+            </tr>
+            <tr>
+                <td><label>LastName: </label></td>
+                <td><input placeholder="Last Name" type="text" ng-model="lastname" required/></td>
+            </tr>
+            <tr>
+                <td><label>EmailID: </label></td>
+                <td><input placeholder="patil@uhcl.edu" type="text" ng-model="emailid" required/></td>
+            </tr>
+            <tr>
+                <td><label>Password: </label></td>
+                <td><input placeholder="Password" type="password" ng-model="password" required/></td>
+            </tr>
+            <tr>
+                <td><label>PhoneNo: </label></td>
+                <td><input placeholder="Phone No" type="text" ng-model="phoneno" required/></td>
+            </tr>
+            <tr>
+                <td><label>Address: </label></td>
+                <td><input placeholder="Address" type="text" ng-model="address" required/></td>
+            </tr>
+            <tr>
+                <td><label>ZipCode: </label></td>
+                <td><input placeholder="ZipCode" type="text" ng-model="zipcode" /></td>
+            </tr>
+            <tr>
+                <!--<td><input type="reset" value="Reset" /></td>-->
+                <td><input type="submit" value="Submit" /> </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="color:yellow">
+                    {{message}}
+                </td>
+            </tr>
+        </table>
+        
+        
+    </form>
+
+</body>
+</html>
